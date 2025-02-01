@@ -26,12 +26,12 @@ function App() {
   const types = geoJsonData ? [...new Set(geoJsonData.features.map(item => item.properties.TYPE))] : [];
 
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ flex: 1 }}>
-      <MapViewer geoJsonData={geoJsonData} activeFilters={activeFilters} />
-      </div>
-      <div style={{ flex: 1, backgroundColor: '#f0f0f0' }}>
+    <div className="container">
+      <div className="filter-view">
         <FilterView types={types} onFilterChange={handleFilterChange} activeFilters={activeFilters} />
+      </div>
+      <div className="map-view">
+        <MapViewer geoJsonData={geoJsonData} activeFilters={activeFilters} />
       </div>
     </div>
   );

@@ -1,13 +1,23 @@
-.container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .map-view, .filter-view {
-    flex: 1;
-    overflow: auto; /* Ensures content can scroll if it overflows */
-  }
-  
-  .filter-view {
-    background-color: #f0f0f0; /* Just to make sure it's visible */
-  }
+.filter-view {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease;
+    transform: translateY(100%); 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3); 
+}
+
+.filter-view.visible {
+    transform: translateY(0); 
+}
+
+.filter-view h3 {
+    margin: 10px 0;
+}
+
+.filter-view label {
+    display: block;
+    margin: 5px 20px;
+}
