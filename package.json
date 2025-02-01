@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "symlink-dir node_modules/cesium/Build/Cesium public/cesium"
   },
   "dependencies": {
     "cesium": "^1.125.0",
@@ -14,5 +15,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "resium": "^1.18.3"
+  },
+  "devDependencies": {
+    "symlink-dir": "^6.0.4"
   }
 }
