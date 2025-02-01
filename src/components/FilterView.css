@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .map-view, .filter-view {
+    flex: 1;
+    overflow: auto; /* Ensures content can scroll if it overflows */
+  }
+  
+  .filter-view {
+    background-color: #f0f0f0; /* Just to make sure it's visible */
+  }
