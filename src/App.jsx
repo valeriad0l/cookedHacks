@@ -1,48 +1,38 @@
 import React, { useState, useEffect } from 'react';
-import { Viewer, GeoJsonDataSource, Entity} from "resium";
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import { Viewer, Entity } from "resium";
 import * as Cesium from 'cesium';
-import 'cesium/Build/Cesium/Widgets/widgets.css'; 
+import 'cesium/Build/Cesium/Widgets/widgets.css';
 
 function App() {
-
-  const [geoJsonDataSource, setGeoJsonDataSource] = useState(null);
+  const [geoJsonData, setGeoJsonData] = useState(null);
 
   useEffect(() => {
-    const loadGeoJson = async () => {
- 
-      console.log("Loading GeoJSON from:", '../data/STM_Montreal_Public_Places.geojson');
-      const data = await Cesium.GeoJsonDataSource.load('/data/STM_Montreal_Public_Places.geojson', {
-        markerColor: Cesium.Color.ORANGE,
-        markerSize: 10,
-      });
-
-      data.entities.values.forEach(entity => {
-        entity.point = new Cesium.PointGraphics({
-          color: Cesium.Color.ORANGE,
-          pixelSize: 10,
-          outlineColor: Cesium.Color.BLACK,
-          outlineWidth: 1
-        });
-      });
-      setGeoJsonDataSource(data);
-    
-    
-    };
-
-    loadGeoJson();
-
+    fetch('/data/STM_Montreal_Public_Places.geojson')
+      .then(response => response.json())
+      .then(data => setGeoJsonData(data))
+      .catch(error => console.error('Error loading GeoJSON:', error));
   }, []);
 
   return (
-    <>
-      <Viewer full >
-      {geoJsonDataSource && <GeoJsonDataSource dataSource={geoJsonDataSource} />}
-      </Viewer>
-    </>
-  )
+    <Viewer full>
+      {geoJsonData && geoJsonData.features.map((feature, index) => {
+        const coordinates = feature.geometry.coordinates;
+        return (
+          <Entity
+            key={index}
+            name={feature.properties.DESCRIPTION}
+            position={Cesium.Cartesian3.fromDegrees(coordinates[0], coordinates[1], coordinates[2])}
+            point={{
+              pixelSize: 10,
+              color: Cesium.Color.ORANGE,
+              outlineColor: Cesium.Color.BLACK,
+              outlineWidth: 1
+            }}
+          />
+        );
+      })}
+    </Viewer>
+  );
 }
 
-export default App
+export default App;

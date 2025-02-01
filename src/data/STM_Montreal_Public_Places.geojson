@@ -306,7 +306,7 @@
             "properties": {
                 "NO RVI": 4218,
                 "TYPE": "ARENA",
-                "PUBLIC PLACE ID": "ARENANORMA",
+                "PUBLIC PLACE ID": "ARENAMCCON",
                 "DESCRIPTION": "Arena Michel-Normandin",
                 "ADDRESSE": "850 Emile-Journault AV MONTREAL (AHUNTSIC/CARTIERVILLE) H1V3J3",
                 "More Information": "Michel-Normandin arena . Via the main entrance",
@@ -2750,13 +2750,13 @@
                 "DESCRIPTION": "Centre de loisirs Edouard Rivet",
                 "ADDRESSE": "11111 Notre-Dame RU E MONTREAL-EST H1A5G2",
                 "More Information": "Edouard Rivet Sport center . Via the main entrance",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -2990,13 +2990,13 @@
                 "DESCRIPTION": "Centre de Repit Angelman",
                 "ADDRESSE": "14400 Gouin BV O PIERREFONDS/ROXBORO H4R2C3",
                 "More Information": "The Angelman Respite Center . Via the parking lot at  T A signpost door",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -3149,7 +3149,7 @@
                 "PUBLIC PLACE ID": "CJCMALEPAR",
                 "DESCRIPTION": "Centre Jean-Claude Malepart",
                 "ADDRESSE": "2633 Ontario RU E MONTREAL (VILLE-MARIE) H1Z2A7",
-                "More Information": NaN,
+                "More Information": "NaN",
                 "Borough": "VILLE-MARIE"
             },
             "geometry": {
@@ -5890,13 +5890,13 @@
                 "DESCRIPTION": "CLSC de Pierrefonds",
                 "ADDRESSE": "13800 Gouin BV O PIERREFONDS/ROXBORO H8Y1Z2",
                 "More Information": "CLSC of Pierrefonds. Via the main entrance.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -6929,7 +6929,7 @@
                 "PUBLIC PLACE ID": "COSTCOANJO",
                 "DESCRIPTION": "Costco Anjou",
                 "ADDRESSE": "9401 des Sciences BV ANJOU H1R1W3",
-                "More Information": NaN,
+                "More Information": "NaN",
                 "Borough": "ANJOU"
             },
             "geometry": {
@@ -8370,13 +8370,13 @@
                 "DESCRIPTION": "CROM/atl/Eglise Westview Bible Church",
                 "ADDRESSE": "16789 de Pierrefonds BV PIERREFONDS/ROXBORO H9H3G6",
                 "More Information": "Westview Bible Church . Via by St-Charles street",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -8510,13 +8510,13 @@
                 "DESCRIPTION": "CROM/atl/Precise",
                 "ADDRESSE": "555 Lee AV BAIE-D'URFE H2L1L8",
                 "More Information": "Precise workshop . Via by Cruickshank street at T A signpost",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -9650,13 +9650,13 @@
                 "DESCRIPTION": "H\u00c3\u00b4pital Charles-Le Moyne",
                 "ADDRESSE": "3120 Taschereau BV H\u00c3\u00b4pital Charles-Le Moyne GREENFIELD PARK J4V2H1",
                 "More Information": "Charles-Le Moyne Hospital. Via the main entrance.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -10590,13 +10590,13 @@
                 "DESCRIPTION": "H\u00c3\u00b4pital Pierre Boucher Longueuil",
                 "ADDRESSE": "1333 Jacques-Cartier BV E LONGUEUIL J4M2A5",
                 "More Information": "Pierre-Boucher Hospital . Via the main entrance",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -10610,13 +10610,13 @@
                 "DESCRIPTION": "H\u00c3\u00b4pital Pierre-Le Gardeur",
                 "ADDRESSE": "911 Des Pionniers MO H\u00c3\u00b4pital Pierre-Le Gardeur Lachenaie TERREBONNE (LACHENAIE) J6V1S8",
                 "More Information": "Pierre-Le Gardeur Hospital. Via the main entrance.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -12470,13 +12470,13 @@
                 "DESCRIPTION": "Marche Provigo",
                 "ADDRESSE": "4849 Saint-Jean BV PIERREFONDS/ROXBORO H9H4A6",
                 "More Information": "Provigo Market. Via the main entrance.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -13590,13 +13590,13 @@
                 "DESCRIPTION": "Parc Nature Cap St-Jacques Chalet",
                 "ADDRESSE": "20099 du Cap-Saint-Jacques LP Chalet PIERREFONDS/ROXBORO H9K1C8",
                 "More Information": "Cap St-Jacques Nature Parc chalet . Via the entrance by the Chalet",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -13610,13 +13610,13 @@
                 "DESCRIPTION": "Parc Nature Cap St-Jacques Ferme",
                 "ADDRESSE": "20099 Gouin BV O Ferme PIERREFONDS/ROXBORO H9K1C8",
                 "More Information": "Cap Saint Jacques Nature Park . Via the entrance on ecological farm",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -13630,13 +13630,13 @@
                 "DESCRIPTION": "Parc Nature Cap St-Jacques Plage",
                 "ADDRESSE": "21115 Gouin BV O PIERREFONDS/ROXBORO H9K1C8",
                 "More Information": "Cap Saint Jacques Nature Park beach . Via the entrance at the ticketing beach",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -13930,13 +13930,13 @@
                 "DESCRIPTION": "Place Bell",
                 "ADDRESSE": "1950 Claude-Gagne RU Place Bell LAVAL-DES-RAPIDES H7N5H9",
                 "More Information": "Place Bell. Via the main entrance.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
@@ -16310,13 +16310,13 @@
                 "DESCRIPTION": "Vaccination Centre Gerry Robertson",
                 "ADDRESSE": "9665 Gouin BV O PIERREFONDS/ROXBORO H8Y1Z2",
                 "More Information": "Vaccination Center Gerry Robertson. Via the main door at the TA pictogram.",
-                "Borough": NaN
+                "Borough": "NaN"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    NaN,
-                    NaN,
+                    "NaN",
+                    "NaN",
                     100
                 ]
             }
